@@ -15,33 +15,39 @@ std::string convToLower(std::string src)
     to a set of words based on the criteria given in the assignment **/
 std::set<std::string> parseStringToWords(string rawWords)
 {
-    /*
+    //convert to lower case
+    rawWords = convToLower(rawWords);
     std::set<std::string> keywords;
     //split keywords at characters or spaces.
-    int previous = 0;
-    for(int i = 0; i < rawWords.size(); i++)
-    {
-        //convert to upper case
-        if((int) rawWords[i] > 90)
-        {
-            rawWords[i] = (char) ((int)rawWords[i] - 32);
-        }
-        //add substring to keywords
-        if(!((int) rawWords[i] >= 65 && (int) rawWords[i] <= 90))
-        {
-            if(i-previous >= 2)
-            {
-                keywords.insert(rawWords.substr(previous,i-previous));
-            }
-            previous = i+1;
-        }
-    }
-    */
-
+    int i = 0;
     while(rawWords.size() != 0)
     {
-        
+        //if finds a number or hyphen 
+        if(((int) rawWords[i] >= 0 && (int) rawWords[i] <= 9) || (int) rawWords[i] == 45)
+        {
+            //move on
+            ++i;
+        }
+        //if find a character that isnt a number or hyphen or letter
+        else if(!((int) rawWords[i] >= 97 && (int) rawWords[i] <= 122))
+        {
+            //make sure it's long enough
+            if(i >= 2)
+            {
+                keywords.insert(rawWords.substr(0,i));
+            }
+            //check to see if this is correct implementation
+            rawWords = ltrim(rawWords);
+            i = 0;
+        }
+        //otherwise increment to next index
+        else
+        {
+            ++i;
+        }
+
     }
+    return keywords;
 }
 
 
