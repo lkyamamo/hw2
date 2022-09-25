@@ -30,7 +30,7 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
     //throw exception
     else
     {
-
+        throw 
     }
 
     //adds initial search terms to set
@@ -72,4 +72,20 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
     }
     
     return output;
+}
+
+void MyDataStore::dump(std::ostream& ofile)
+{
+    std::cout << "<products>" << std::endl;
+    for(int i = 0; i < mProducts.size(); i++)
+    {
+        mProducts[i] -> dump(ofile);
+    }
+    std::cout << "</products>" << std::endl;
+
+    std::cout <<"<users>" << std::endl;
+    for(int i = 0; i < mUsers.size(); i++)
+    {
+        mUsers[i] -> dump(ofile);
+    }
 }

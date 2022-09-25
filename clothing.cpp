@@ -47,7 +47,7 @@ std::string Clothing::displayString() const
 
 void Clothing::dump(std::ostream& os) const
 {
-    os << "book" << std::endl;
+    os << category_ << std::endl;
     os << name_ << std::endl;
     os << price_ << std::endl;
     os << qty_ << std::endl;
