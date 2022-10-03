@@ -1,6 +1,7 @@
 #include <sstream>
 #include <iomanip>
 #include "movie.h"
+#include "util.h"
 
 Movie::Movie(const std::string category, const std::string name, double price, int qty, const std::string genre, const std::string rating) :
     Product(category, name, price, qty),
@@ -12,11 +13,35 @@ Movie::Movie(const std::string category, const std::string name, double price, i
 
 std::set<std::string> Movie::keywords() const
 {
+    std::set<std::string> tempSet;
+    std::string tempString;
     std::set<std::string> output;
-    output.insert(name_);
     output.insert(category_);
-    output.insert(genre_);
-    output.insert(rating_);
+    output.insert(convToLower(rating_));
+    
+    //name parse
+    tempString = convToLower(name_);
+    //to individual words
+    tempSet = parseStringToWords(tempString);
+    std::set<std::string>::iterator it = tempSet.begin();
+    while(it != tempSet.end())
+    {
+        output.insert(*it);
+        ++it;
+    }
+    tempSet.clear();
+
+    //genre parse
+    tempString = convToLower(genre_);
+    //to individual words
+    tempSet = parseStringToWords(tempString);
+    it = tempSet.begin();
+    while(it != tempSet.end())
+    {
+        output.insert(*it);
+        ++it;
+    }
+    tempSet.clear();
 
     return output;
 }
@@ -25,20 +50,17 @@ std::string Movie::displayString() const
 {
     std::string output = "";
 
-    //first line
+    //print all data members
     output += name_;
     output += '\n';
-
-    //second line
     output += "Genre: ";
     output += genre_;
-    output += " Rating: ";
+    output += "\n";
+    output += "Rating: ";
     output += rating_;
     output += '\n';
-
-    //third line
     output += std::to_string(price_);
-    output += " ";
+    output += "\n";
     output += std::to_string(qty_);
     output += " left.\n";
 
@@ -47,6 +69,7 @@ std::string Movie::displayString() const
 
 void Movie::dump(std::ostream& os) const
 {
+    //add all data members
     os << category_ << std::endl;
     os << name_ << std::endl;
     os << price_ << std::endl;

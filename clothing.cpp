@@ -1,6 +1,7 @@
 #include <sstream>
 #include <iomanip>
 #include "clothing.h"
+#include "util.h"
 
 Clothing::Clothing(const std::string category, const std::string name, double price, int qty, const std::string size, const std::string brand) :
     Product(category, name, price, qty),
@@ -12,11 +13,35 @@ Clothing::Clothing(const std::string category, const std::string name, double pr
 
 std::set<std::string> Clothing::keywords() const
 {
+    std::set<std::string> tempSet;
+    std::string tempString;
     std::set<std::string> output;
-    output.insert(name_);
     output.insert(category_);
-    output.insert(size_);
-    output.insert(brand_);
+    output.insert(convToLower(size_));
+
+    //name parse
+    tempString = convToLower(name_);
+    //into individual word set
+    tempSet = parseStringToWords(tempString);
+    std::set<std::string>::iterator it = tempSet.begin();
+    while(it != tempSet.end())
+    {
+        output.insert(*it);
+        ++it;
+    }
+    tempSet.clear();
+
+    //brand parse
+    tempString = convToLower(brand_);
+    //into individual word set
+    tempSet = parseStringToWords(tempString);
+    it = tempSet.begin();
+    while(it != tempSet.end())
+    {
+        output.insert(*it);
+        ++it;
+    }
+    tempSet.clear();
 
     return output;
 }
@@ -25,20 +50,17 @@ std::string Clothing::displayString() const
 {
     std::string output = "";
 
-    //first line
+    //print all data members
     output += name_;
     output += '\n';
-
-    //second line
     output += "Size: ";
     output += size_;
-    output += " Brand: ";
+    output += "\n";
+    output += "Brand: ";
     output += brand_;
     output += '\n';
-
-    //third line
     output += std::to_string(price_);
-    output += " ";
+    output += "\n";
     output += std::to_string(qty_);
     output += " left.\n";
 
@@ -47,6 +69,7 @@ std::string Clothing::displayString() const
 
 void Clothing::dump(std::ostream& os) const
 {
+    //add all data members
     os << category_ << std::endl;
     os << name_ << std::endl;
     os << price_ << std::endl;

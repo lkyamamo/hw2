@@ -18,7 +18,7 @@ std::set<T> setIntersection(std::set<T>& s1, std::set<T>& s2)
     typename std::set<T> output;
     typename std::set<T>::iterator it1;
     typename std::set<T>::iterator it2;
-    int shift = 0;
+
     //over whole set s1 O(n)
     for(it1 = s1.begin(); it1 != s1.end(); ++it1)
     {

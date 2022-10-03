@@ -19,8 +19,10 @@ std::set<std::string> parseStringToWords(string rawWords)
     rawWords = convToLower(rawWords);
     std::set<std::string> keywords;
     //split keywords at characters or spaces.
-    int i = 0;
-    while(rawWords.size() != 0)
+    unsigned long i = 0;
+    unsigned long last = 0;
+    std::string temp;
+    while(i < rawWords.size())
     {
         //if finds a number or hyphen 
         if(((int) rawWords[i] >= 0 && (int) rawWords[i] <= 9) || (int) rawWords[i] == 45)
@@ -31,14 +33,16 @@ std::set<std::string> parseStringToWords(string rawWords)
         //if find a character that isnt a number or hyphen or letter
         else if(!((int) rawWords[i] >= 97 && (int) rawWords[i] <= 122))
         {
-            //make sure it's long enough
+            //make sure it's long enough then insert
             if(i >= 2)
             {
-                keywords.insert(rawWords.substr(0,i));
+                temp = rawWords.substr(last,i-last);
+                ltrim(temp);
+                rtrim(temp);
+                keywords.insert(temp);
+                last = i;
             }
-            //check to see if this is correct implementation
-            rawWords = ltrim(rawWords);
-            i = 0;
+            ++i;
         }
         //otherwise increment to next index
         else
