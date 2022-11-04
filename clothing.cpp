@@ -60,7 +60,7 @@ std::string Clothing::displayString() const
     output += brand_;
     output += '\n';
     output += std::to_string(price_);
-    output += "\n";
+    output += " ";
     output += std::to_string(qty_);
     output += " left.\n";
 
