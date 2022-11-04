@@ -34,14 +34,14 @@ std::set<std::string> parseStringToWords(string rawWords)
         else if(!((int) rawWords[i] >= 97 && (int) rawWords[i] <= 122))
         {
             //make sure it's long enough then insert
-            if(i >= 2)
+            if(i-last >= 2)
             {
                 temp = rawWords.substr(last,i-last);
                 ltrim(temp);
                 rtrim(temp);
                 keywords.insert(temp);
-                last = i;
             }
+            last = i+1;
             ++i;
         }
         //otherwise increment to next index
