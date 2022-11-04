@@ -1,4 +1,0 @@
-<products>
-</products>
-<users>
-</users>

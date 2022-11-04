@@ -1,2 +1,0 @@
-VIEWCART aaron
-QUIT database.out

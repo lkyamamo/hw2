@@ -1,6 +1,0 @@
-AND Hidden Figures
-ADD saty 1
-AND Hidden Figures
-ADD saty 1
-VIEWCART saty
-QUIT database.out
