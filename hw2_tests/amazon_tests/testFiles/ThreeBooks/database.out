@@ -1,0 +1,23 @@
+<products>
+book
+Data Abstraction & Problem Solving with C++
+79.99
+20
+978-013292372-9
+Carrano and Henry
+book
+East of Eden
+19.99
+10
+978-837023774-5
+John Steinbeck
+book
+00001010 00001111
+0.11
+0
+111-000000000-1
+A. Robot
+</products>
+<users>
+user 10000 0
+</users>

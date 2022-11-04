@@ -1,0 +1,8 @@
+AND Data Abstraction
+ADD rafsilva 1
+AND Data Abstraction
+ADD rafsilva 1
+VIEWCART rafsilva
+BUYCART rafsilva
+VIEWCART rafsilva
+QUIT database.out

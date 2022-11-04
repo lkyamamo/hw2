@@ -1,0 +1,6 @@
+AND Hidden Figures
+ADD saty 1
+AND Great Men
+ADD saty 1
+VIEWCART saty
+QUIT database.out

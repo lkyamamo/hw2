@@ -10,7 +10,7 @@ all: amazon
 amazon: $(OBJS)
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ $(OBJS)
 
-amazon.o: amazon.cpp db_parser.h datastore.h product_parser.h 
+amazon.o: amazon.cpp db_parser.h product_parser.h 
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c amazon.cpp
 user.o: user.cpp user.h 
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c user.cpp

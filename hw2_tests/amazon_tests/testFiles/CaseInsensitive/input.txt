@@ -1,0 +1,2 @@
+OR Foo
+QUIT database.out

@@ -1,0 +1,2 @@
+AND Great and
+QUIT database.out

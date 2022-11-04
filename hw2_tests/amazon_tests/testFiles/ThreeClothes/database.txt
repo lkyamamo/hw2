@@ -1,0 +1,23 @@
+<products>
+clothing
+Men's Fitted Shirt
+39.99
+25
+Medium
+J. Crew
+clothing
+Women's Blouse
+34.99
+8
+Small
+JCPenny
+clothing
+FRC Fan T-Shirt
+17.00
+3
+7
+FIRST
+</products>
+<users>
+user 10000 0
+</users>

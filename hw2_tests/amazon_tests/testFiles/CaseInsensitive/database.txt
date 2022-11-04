@@ -1,0 +1,17 @@
+<products>
+movie
+FOO
+0.99
+8
+Disaster
+PG-13
+movie
+foo
+20.25
+4
+Programming
+TV-14
+</products>
+<users>
+user 1000.0 0
+</users>

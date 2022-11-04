@@ -1,0 +1,20 @@
+Read 1 products
+Read 1 users
+=====================================
+Menu: 
+  AND term term ...                  
+  OR term term ...                   
+  ADD username search_hit_number     
+  VIEWCART username                  
+  BUYCART username                   
+  QUIT new_db_filename               
+====================================
+
+Enter command: 
+Hit   1
+Men's Fitted Shirt         
+Size: Medium Brand: J. Crew
+39.99  25 left.
+
+
+Enter command: 
