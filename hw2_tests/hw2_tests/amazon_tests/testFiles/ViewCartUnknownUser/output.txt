@@ -1,0 +1,16 @@
+Read 5 products
+Read 3 users
+=====================================
+Menu: 
+  AND term term ...                  
+  OR term term ...                   
+  ADD username search_hit_number     
+  VIEWCART username                  
+  BUYCART username                   
+  QUIT new_db_filename               
+====================================
+
+Enter command: 
+Invalid username
+
+Enter command: 

@@ -1,3 +1,14 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: </products>
+End section: products
+Line: <users>
+Found section: users
+Line: rafsilva 100.00 0
+Line: </users>
+End section: users
+Line: 
 Read 0 products
 Read 1 users
 =====================================

@@ -1,0 +1,43 @@
+Read 4 products
+Read 3 users
+=====================================
+Menu: 
+  AND term term ...                  
+  OR term term ...                   
+  ADD username search_hit_number     
+  VIEWCART username                  
+  BUYCART username                   
+  QUIT new_db_filename               
+====================================
+
+Enter command: 
+Hit   1
+Hidden Figures DVD         
+Genre: Drama Rating: PG
+17.99   1 left.
+
+
+Enter command: 
+
+Enter command: 
+Hit   1
+Great Men and Women of Troy         
+Author: Tommy Trojan ISBN: 978-000000000-1
+19.50   5 left.
+
+
+Enter command: 
+
+Enter command: 
+Item 1
+Hidden Figures DVD         
+Genre: Drama Rating: PG
+17.99   1 left.
+
+Item 2
+Great Men and Women of Troy         
+Author: Tommy Trojan ISBN: 978-000000000-1
+19.50   5 left.
+
+
+Enter command: 

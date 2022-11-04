@@ -1,3 +1,21 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: clothing
+Line: Men's Fitted Shirt
+Line: 39.99
+Line: 25
+Line: Medium
+Line: J. Crew
+Line: </products>
+Making product Men's Fitted Shirt
+End section: products
+Line: <users>
+Found section: users
+Line: user 10000.00 0
+Line: </users>
+End section: users
+Line: 
 Read 1 products
 Read 1 users
 =====================================
@@ -12,9 +30,12 @@ Menu:
 
 Enter command: 
 Hit   1
-Men's Fitted Shirt         
-Size: Medium Brand: J. Crew
-39.99  25 left.
+Men's Fitted Shirt
+Size: Medium
+Brand: J. Crew
+39.990000
+25 left.
+
 
 
 Enter command: 

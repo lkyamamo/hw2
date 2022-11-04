@@ -1,0 +1,11 @@
+<products>
+clothing
+Men's Fitted Shirt
+39.99
+25
+Medium
+J. Crew
+</products>
+<users>
+user 10000.00 0
+</users>

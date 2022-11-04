@@ -1,3 +1,42 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: book
+Line: Data Abstraction & Problem Solving with C++
+Line: 79.99
+Line: 20
+Line: 978-013292372-9
+Line: Carrano and Henry
+Line: book
+Line: Great Men and Women of Troy
+Line: 19.50
+Line: 5
+Line: 978-000000000-1
+Line: Tommy Trojan
+Line: clothing
+Line: Men's Fitted Shirt
+Line: 39.99
+Line: 25
+Line: Medium
+Line: J. Crew
+Line: movie
+Line: Hidden Figures DVD
+Line: 17.99
+Line: 1
+Line: Drama
+Line: PG
+Line: </products>
+Making product Data Abstraction & Problem Solving with C++
+Making product Great Men and Women of Troy
+Making product Men's Fitted Shirt
+Making product Hidden Figures DVD
+End section: products
+Line: <users>
+Found section: users
+Line: rafsilva 100.00 0
+Line: </users>
+End section: users
+Line: 
 Read 4 products
 Read 1 users
 =====================================

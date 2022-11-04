@@ -1,3 +1,35 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: movie
+Line: Hidden Figures DVD
+Line: 17.99
+Line: 1
+Line: Drama
+Line: PG
+Line: movie
+Line: Logan
+Line: 99.99
+Line: 99
+Line: Action
+Line: R
+Line: movie
+Line: ' '
+Line: 7.50
+Line: 1000
+Line: Neo-deconstructionalism
+Line: G
+Line: </products>
+Making product Hidden Figures DVD
+Making product Logan
+Making product ' '
+End section: products
+Line: <users>
+Found section: users
+Line: user 10000 0
+Line: </users>
+End section: users
+Line: 
 Read 3 products
 Read 1 users
 =====================================

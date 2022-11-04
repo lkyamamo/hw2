@@ -1,3 +1,51 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: book
+Line: Data Abstraction & Problem Solving with C++
+Line: 79.99
+Line: 20
+Line: 978-013292372-9
+Line: Carrano and Henry
+Line: book
+Line: Great Men and Women and Robot's of Troy
+Line: 19.50
+Line: 5
+Line: 978-000000000-1
+Line: Tommy Trojan
+Line: book
+Line: 00001010 00001111
+Line: 0.11
+Line: 5
+Line: 111-000000000-1
+Line: A. Robot
+Line: movie
+Line: Hidden Figures DVD
+Line: 17.99
+Line: 5
+Line: Drama
+Line: PG
+Line: movie
+Line: Great Heights
+Line: 22.49
+Line: 5
+Line: and
+Line: PG-13
+Line: </products>
+Making product Data Abstraction & Problem Solving with C++
+Making product Great Men and Women and Robot's of Troy
+Making product 00001010 00001111
+Making product Hidden Figures DVD
+Making product Great Heights
+End section: products
+Line: <users>
+Found section: users
+Line: rafsilva 100.00 0
+Line: redekopp 50.00 1
+Line: saty 120.00 1
+Line: </users>
+End section: users
+Line: 
 Read 5 products
 Read 3 users
 =====================================
@@ -12,9 +60,20 @@ Menu:
 
 Enter command: 
 Hit   1
-00001010 00001111         
-Author: A. Robot ISBN: 111-000000000-1
-0.11   5 left.
+00001010 00001111
+Author: A. Robot
+ISBN: 111-000000000-1
+0.110000
+5 left.
+
+
+Hit   2
+Great Men and Women and Robot's of Troy
+Author: Tommy Trojan
+ISBN: 978-000000000-1
+19.500000
+5 left.
+
 
 
 Enter command: 
@@ -23,16 +82,22 @@ Enter command:
 
 Enter command: 
 Item 1
-00001010 00001111         
-Author: A. Robot ISBN: 111-000000000-1
-0.11   5 left.
+00001010 00001111
+Author: A. Robot
+ISBN: 111-000000000-1
+0.110000
+5 left.
+
 
 
 Enter command: 
 Item 1
-00001010 00001111         
-Author: A. Robot ISBN: 111-000000000-1
-0.11   5 left.
+00001010 00001111
+Author: A. Robot
+ISBN: 111-000000000-1
+0.110000
+5 left.
+
 
 
 Enter command: 

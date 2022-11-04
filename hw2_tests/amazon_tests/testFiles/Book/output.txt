@@ -1,3 +1,20 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: book
+Line: Data Abstraction & Problem Solving with C++
+Line: 79.99
+Line: 20
+Line: 978-013292372-9
+Line: Carrano and Henry
+Line: </products>
+Making product Data Abstraction & Problem Solving with C++
+End section: products
+Line: <users>
+Found section: users
+Line: </users>
+End section: users
+Line: 
 Read 1 products
 Read 0 users
 =====================================

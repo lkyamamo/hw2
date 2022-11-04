@@ -1,3 +1,28 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: movie
+Line: FOO
+Line: 0.99
+Line: 8
+Line: Disaster
+Line: PG-13
+Line: movie
+Line: foo
+Line: 20.25
+Line: 4
+Line: Programming
+Line: TV-14
+Line: </products>
+Making product FOO
+Making product foo
+End section: products
+Line: <users>
+Found section: users
+Line: user 1000.0 0
+Line: </users>
+End section: users
+Line: 
 Read 2 products
 Read 1 users
 =====================================
@@ -12,14 +37,20 @@ Menu:
 
 Enter command: 
 Hit   1
-FOO         
-Genre: Disaster Rating: PG-13
-0.99   8 left.
+FOO
+Genre: Disaster
+Rating: PG-13
+0.990000
+8 left.
+
 
 Hit   2
-foo         
-Genre: Programming Rating: TV-14
-20.25   4 left.
+foo
+Genre: Programming
+Rating: TV-14
+20.250000
+4 left.
+
 
 
 Enter command: 

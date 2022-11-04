@@ -1,0 +1,20 @@
+Read 2 products
+Read 1 users
+=====================================
+Menu: 
+  AND term term ...                  
+  OR term term ...                   
+  ADD username search_hit_number     
+  VIEWCART username                  
+  BUYCART username                   
+  QUIT new_db_filename               
+====================================
+
+Enter command: 
+Hit   1
+The Killer Rabbit of Caerbannog: A Documentary         
+Genre: Disaster Rating: PG-13
+0.01   800000 left.
+
+
+Enter command: 

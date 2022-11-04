@@ -1,3 +1,20 @@
+Starting parsing
+Line: <products>
+Found section: products
+Line: clothing
+Line: Men's Fitted Shirt
+Line: 39.99
+Line: 25
+Line: Medium
+Line: J. Crew
+Line: </products>
+Making product Men's Fitted Shirt
+End section: products
+Line: <users>
+Found section: users
+Line: </users>
+End section: users
+Line: 
 Read 1 products
 Read 0 users
 =====================================
