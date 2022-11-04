@@ -55,7 +55,7 @@ std::string Clothing::displayString() const
     output += '\n';
     output += "Size: ";
     output += size_;
-    output += "\n";
+    output += " ";
     output += "Brand: ";
     output += brand_;
     output += '\n';
