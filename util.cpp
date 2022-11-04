@@ -17,6 +17,7 @@ std::set<std::string> parseStringToWords(string rawWords)
 {
     //convert to lower case
     rawWords = convToLower(rawWords);
+    rawWords += " ";
     std::set<std::string> keywords;
     //split keywords at characters or spaces.
     unsigned long i = 0;
@@ -51,6 +52,7 @@ std::set<std::string> parseStringToWords(string rawWords)
         }
 
     }
+
     return keywords;
 }
 

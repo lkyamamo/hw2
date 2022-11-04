@@ -20,7 +20,8 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
     //adds initial search terms to set
     while(terms.size() != 0)
     {
-        searchTerms.insert((terms.back()));
+        temp = parseStringToWords(terms.back());
+        searchTerms = setUnion(searchTerms, temp);
         terms.pop_back();
     }
 
