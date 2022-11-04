@@ -26,7 +26,7 @@ std::set<std::string> parseStringToWords(string rawWords)
     while(i < rawWords.size())
     {
         //if finds a number or hyphen 
-        if(((int) rawWords[i] >= 0 && (int) rawWords[i] <= 9) || (int) rawWords[i] == 45)
+        if(((int) rawWords[i] >= 48 && (int) rawWords[i] <= 57) || (int) rawWords[i] == 45)
         {
             //move on
             ++i;

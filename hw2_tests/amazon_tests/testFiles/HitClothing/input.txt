@@ -1,2 +1,0 @@
-AND Crew men
-QUIT database.out
