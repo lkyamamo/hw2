@@ -55,7 +55,7 @@ std::string Book::displayString() const
     output += '\n';
     output += "Author: ";
     output += author_;
-    output += "\n";
+    output += " ";
     output += "ISBN: ";
     output += isbn_;
     output += '\n';

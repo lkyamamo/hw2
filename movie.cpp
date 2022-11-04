@@ -55,7 +55,7 @@ std::string Movie::displayString() const
     output += '\n';
     output += "Genre: ";
     output += genre_;
-    output += "\n";
+    output += " ";
     output += "Rating: ";
     output += rating_;
     output += '\n';
