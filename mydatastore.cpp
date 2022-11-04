@@ -63,19 +63,20 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
 void MyDataStore::dump(std::ostream& ofile)
 {
     //go through products and dump each product
-    std::cout << "<products>" << std::endl;
+    ofile << "<products>" << std::endl;
     for(unsigned long i = 0; i < mProducts.size(); i++)
     {
         mProducts[i] -> dump(ofile);
     }
-    std::cout << "</products>" << std::endl;
+    ofile << "</products>" << std::endl;
 
     //go through each user and dump
-    std::cout <<"<users>" << std::endl;
+    ofile <<"<users>" << std::endl;
     for(unsigned long i = 0; i < mUsers.size(); i++)
     {
         mUsers[i] -> dump(ofile);
     }
+    ofile <<"</users>" << std::endl;
 }
 
 void MyDataStore::addToCart(std::string user, Product* item)
