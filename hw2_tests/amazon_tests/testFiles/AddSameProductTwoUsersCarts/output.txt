@@ -61,18 +61,8 @@ Menu:
 Enter command: 
 Hit   1
 00001010 00001111
-Author: A. Robot
-ISBN: 111-000000000-1
-0.110000
-5 left.
-
-
-Hit   2
-Great Men and Women and Robot's of Troy
-Author: Tommy Trojan
-ISBN: 978-000000000-1
-19.500000
-5 left.
+Author: A. Robot ISBN: 111-000000000-1
+0.110000 5 left.
 
 
 
@@ -83,20 +73,16 @@ Enter command:
 Enter command: 
 Item 1
 00001010 00001111
-Author: A. Robot
-ISBN: 111-000000000-1
-0.110000
-5 left.
+Author: A. Robot ISBN: 111-000000000-1
+0.110000 5 left.
 
 
 
 Enter command: 
 Item 1
 00001010 00001111
-Author: A. Robot
-ISBN: 111-000000000-1
-0.110000
-5 left.
+Author: A. Robot ISBN: 111-000000000-1
+0.110000 5 left.
 
 
 

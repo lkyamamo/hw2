@@ -1,0 +1,17 @@
+<products>
+book
+Data Abstraction & Problem Solving with C++
+79.99
+20
+978-013292372-9
+Carrano and Henry
+book
+Graveyard of the Pacific
+9.95
+7
+978-192661331-4
+Anthony Dalton
+</products>
+<users>
+user 10000.00 0
+</users>

@@ -1,0 +1,7 @@
+AND Figures DVD
+ADD rafsilva 1
+AND Figures DVD
+ADD redekopp 1
+VIEWCART rafsilva
+VIEWCART redekopp
+QUIT database.out

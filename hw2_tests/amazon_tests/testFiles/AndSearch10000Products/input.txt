@@ -1,0 +1,2 @@
+AND Protons Quark
+QUIT database.out

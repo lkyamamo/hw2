@@ -61,10 +61,8 @@ Menu:
 Enter command: 
 Hit   1
 Great Men and Women of Troy
-Author: Tommy Trojan
-ISBN: 978-000000000-1
-19.500000
-5 left.
+Author: Tommy Trojan ISBN: 978-000000000-1
+19.500000 5 left.
 
 
 
@@ -73,10 +71,8 @@ Enter command:
 Enter command: 
 Hit   1
 Hidden Figures DVD
-Genre: Drama
-Rating: PG
-17.990000
-5 left.
+Genre: Drama Rating: PG
+17.990000 5 left.
 
 
 
@@ -85,20 +81,16 @@ Enter command:
 Enter command: 
 Item 1
 Great Men and Women of Troy
-Author: Tommy Trojan
-ISBN: 978-000000000-1
-19.500000
-5 left.
+Author: Tommy Trojan ISBN: 978-000000000-1
+19.500000 5 left.
 
 
 
 Enter command: 
 Item 1
 Hidden Figures DVD
-Genre: Drama
-Rating: PG
-17.990000
-5 left.
+Genre: Drama Rating: PG
+17.990000 5 left.
 
 
 

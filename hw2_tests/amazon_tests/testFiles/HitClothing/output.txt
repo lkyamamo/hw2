@@ -31,10 +31,8 @@ Menu:
 Enter command: 
 Hit   1
 Men's Fitted Shirt
-Size: Medium
-Brand: J. Crew
-39.990000
-25 left.
+Size: Medium Brand: J. Crew
+39.990000 25 left.
 
 
 
